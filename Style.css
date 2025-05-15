@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header p {
+    opacity: 0.5;
+}
+
+.grid-containeur {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-top: 5px;
+    border-radius: 50px;
+}
+
+.grid-containeur img {
+    width: 412px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+body {
+    padding: 40px;
+}
+
+
+.writ {
+    background-image: url(./piscine1.webp);
+    width: 412px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: black;
+    color: beige;
+    position: absolute;
+}
+
+.pisc {
+    width: 100%;
+    height: 100%;
+}
+
+.writ .content {
+    padding: 10px;
+    background-color: black;
+    margin-top: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+   
+}
+
+.content h5 {
+    opacity: 0.5;
+     line-height: 0 ;
+}
+
+.content .img {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.content div {
+    display: flex;
+    flex-direction: row;
+    gap: 280px;
+    line-height: 15px;
+    margin-top: 10px;
+}
+
+.ico {
+    align-items: center;
+    top: 10 px;
+}
