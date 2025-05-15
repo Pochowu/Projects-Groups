@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 40px;
+    color: #222;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+.consecteur{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+.header{
+    text-align: left;
+    font-size: xx-large;
+}
+.hero{
+    text-align: center;
+    font-size: smaller;
+}
+.form{
+    background-color: #0c0c0c;
+    text-align: left;
+    padding: 15px;
+    color: #fff;
+    border-radius: 30px;
+    width: 75%;
+    height: 150px;
+}
+
+.head{
+    text-align: justify;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+.menu{
+    background-color: #dadada;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: Opx;
+} 
+.meta{
+    text-align: center;
+    width:75% ;
+    padding: 15px;
+
+}
+.lorem{
+    background-color: #bcbbbb;
+    text-align: left;
+    padding: 15px;
+    color: #000;
+    border-radius: 30px;
+    width: 75%;
+    height: 150px;
+}
+.style{
+    background-color: #fff;
+    text-align: left;
+    padding: 15px;
+    color: #000;
+    border-radius: 20px; 
+    width: 75%;
+    height: 150px;
+}
+.link{
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #c49e5c;
+    font-size: 20px;
+}
+
