@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display:flex;
+    flex-direction: row;
+    gap: 40px;
+   list-style-type: none;
+    padding-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    
+}
+nav{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* banner css */
+
+ 
+
+.text-banner{
+ background-image: url(logo.jpeg);
+ object-fit: cover;
+ height: 550px;
+ border-radius: 10px;
+ margin: 0 20px;
+
+}
+.text-banner h2,p{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+  
+  
+}
+.text-banner h2{
+    font-size: 50px;
+}
+.text-banner p{
+    margin-bottom: 50px;
+}
+.buttons{
+    text-align: center;
+    background-color: #FFF;
+   
+    margin: 0 300px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.btn-blanc button{
+  width: 200px;
+  height: 20px;
+  background-color: #FFF;
+  border: none;
+}
+.btn-noir {
+ padding-left: 320px;
+ margin-top: 10px;
+
+
+}
+#first-btn{
+    background-color: #e4b0ca;
+    margin-left: 50px;
+    border-radius: 10px;
+    width: 150px;
+   
+
+}
+#second-btn{
+    background-color: #000000;
+    color:white;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+
+}
+
+#home {
+    color: black;
+}
+.cta-button {
+ border-radius: 10px;
+ height: 30px;
+ background-color: #e4b0ca;
+
+}
